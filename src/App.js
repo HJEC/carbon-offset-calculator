@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import Question from "./components/question.js"
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-
+    <Question/>
     </div>
   );
 }
